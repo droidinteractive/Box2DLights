@@ -22,3 +22,6 @@ FEATURES:
 * Gamma corrected colors.
 * Handler class to do all the work.
 * Query method for testing is point inside of light/shadow
+
+Notes:
+Compiled and tested with libgdx nightlies 2013-06-29
