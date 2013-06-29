@@ -9,6 +9,7 @@ Rendering is done with libgdx, but it would be easy to port this to another fram
 
 FEATURES:
 * NEW: Shaders stored in external files
+* FIX: Demo no longer crashes desktop
 * Arbitrary number of lights
 * Gaussian blurred light maps
 * Point light
