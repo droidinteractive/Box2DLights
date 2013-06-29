@@ -1,4 +1,4 @@
-box2dlights
+Box2DLights
 ===========
 
 Fork of Box2DLights by Kalle Hämäläinen
