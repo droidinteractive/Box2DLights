@@ -175,16 +175,17 @@ public class Box2dLightTest implements ApplicationListener, InputProcessor {
 		batch.setProjectionMatrix(normalProjection);
 		batch.begin();
 
-		font.draw(batch, Integer.toString(Gdx.graphics.getFramesPerSecond())
-				+ "      - GL es 2.0:" + Gdx.graphics.isGL20Available()
-				+ "mouse at shadows: " + atShadow + " time used for shadow calculation:" +aika / ++times + "ns" , 0, 20);
+		font.draw(batch, "Shadow Calc Time: " + aika / ++times + "ns", 0, 64);
+		font.draw(batch, "Point is shadowed: " + atShadow, 0, 48);
+		font.draw(batch, "GLES 2.0: " + Gdx.graphics.isGL20Available(), 0, 32);
+		font.draw(batch, Integer.toString(Gdx.graphics.getFramesPerSecond()) + "fps", 0, 16);
 
 		batch.end();
 
 	}
 
-	private final static int MAX_FPS = 30;
-	private final static int MIN_FPS = 15;
+	private final static int MAX_FPS = 60;
+	private final static int MIN_FPS = 45;
 	public final static float TIME_STEP = 1f / MAX_FPS;
 	private final static float MAX_STEPS = 1f + MAX_FPS / MIN_FPS;
 	private final static float MAX_TIME_PER_FRAME = TIME_STEP * MAX_STEPS;
