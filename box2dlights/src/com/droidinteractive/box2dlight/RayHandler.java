@@ -106,11 +106,8 @@ public class RayHandler implements Disposable {
 
                 this.isGL20 = Gdx.graphics.isGL20Available();
                 if (this.isGL20) {
-
                         this.lightMap = new LightMap(this, fboWidth, fboHeigth);
                         this.lightShader = Shader.getShader("light");
-                        //this.lightShader = LightShader.createLightShader();
-
                 } else {
                         setGammaCorrection(false);
                         if (Gdx.graphics.getBufferFormat().a == 0) {

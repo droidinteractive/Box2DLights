@@ -141,7 +141,7 @@ class LightMap {
                 this.diffuseShader = Shader.getShader("diffuse");
                 this.withoutShadowShader = Shader.getShader("noshadow");
 
-                this.blurShader = Shader.getShader("gaussian");//Gaussian.createBlurShader(fboWidth, fboHeight);
+                this.blurShader = Shader.getShader("gaussian");
                 this.u_fbowidth = fboWidth;
                 this.u_fboheight = fboHeight;
 
