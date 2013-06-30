@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.droidinteractive.box2dlight.test.Box2dLightTest;
+import com.droidinteractive.box2dlight.test.Box2dLightAndroidTest;
 
 public class MainActivity extends AndroidApplication {
     @Override
@@ -12,8 +12,8 @@ public class MainActivity extends AndroidApplication {
         super.onCreate(savedInstanceState);
         
         AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
-        cfg.useGL20 = false;
+        cfg.useGL20 = true;
         
-        initialize(new Box2dLightTest(), cfg);
+        initialize(new Box2dLightAndroidTest(), cfg);
     }
 }
