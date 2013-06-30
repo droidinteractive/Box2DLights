@@ -25,3 +25,5 @@ FEATURES:
 
 Notes:
 Compiled and tested with libgdx nightlies 2013-06-29
+
+![ScreenShot](http://droidinteractive.com/img/box2dlighttest.png)
