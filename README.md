@@ -1,4 +1,4 @@
-box2dlights
+Box2DLights
 ===========
 
 Fork of Box2DLights by Kalle Hämäläinen
@@ -9,6 +9,7 @@ Rendering is done with libgdx, but it would be easy to port this to another fram
 
 FEATURES:
 * NEW: Shaders stored in external files
+* FIX: Demo no longer crashes desktop
 * Arbitrary number of lights
 * Gaussian blurred light maps
 * Point light
@@ -21,3 +22,6 @@ FEATURES:
 * Gamma corrected colors.
 * Handler class to do all the work.
 * Query method for testing is point inside of light/shadow
+
+Notes:
+Compiled and tested with libgdx nightlies 2013-06-29
