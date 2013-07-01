@@ -26,4 +26,7 @@ FEATURES:
 Notes:
 Compiled and tested with libgdx nightlies 2013-06-29
 
+Download Latest Compiled Library Jars: <a href="http://droidinteractive.com/box2dlights/box2dlights_06302013.zip">Box2DLights Library</a>
+
 ![ScreenShot](http://droidinteractive.com/img/box2dlighttest.png)
+
