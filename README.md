@@ -1,6 +1,5 @@
 Box2DLights
 ===========
-
 Fork of Box2DLights by Kalle Hämäläinen
 
 This library offers an easy way to add soft dynamic 2d lights and shadows to your game.
@@ -9,7 +8,7 @@ Rendering is done with libgdx, but it would be easy to port this to another fram
 
 FEATURES:
 * NEW: Shaders stored in external files
-* FIX: Demo no longer crashes desktop
+* NEW: Updated Demo for both Desktop and Android platforms
 * Arbitrary number of lights
 * Gaussian blurred light maps
 * Point light
@@ -23,9 +22,10 @@ FEATURES:
 * Handler class to do all the work.
 * Query method for testing is point inside of light/shadow
 
-Notes:
+NOTES:
 Compiled and tested with libgdx nightlies 2013-06-29
 
+Read the latest [Documentation](https://github.com/chayfo/Box2DLights/wiki)<br>
 Download Latest Compiled Library Jars: <a href="http://droidinteractive.com/box2dlights/box2dlights_06302013.zip">Box2DLights Library</a>
 
 ![ScreenShot](http://droidinteractive.com/img/box2dlighttest.png)
