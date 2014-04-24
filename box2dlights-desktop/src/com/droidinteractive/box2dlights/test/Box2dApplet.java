@@ -1,6 +1,7 @@
-package com.droidinteractive.box2dlight.test;
+package com.droidinteractive.box2dlights.test;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplet;
+import com.droidinteractive.box2dlight.test.Box2dLightTest;
 
 /** THIS IS NOT INDEPENDENT AND RUNNABLE */
 @SuppressWarnings("serial")

@@ -1,4 +1,4 @@
-package com.droidinteractive.box2dlight.test;
+Ôªøpackage com.droidinteractive.box2dlight.test;
 
 import java.util.ArrayList;
 
@@ -40,7 +40,7 @@ import com.droidinteractive.box2dlight.RayHandler;
 
 /**
  * @author Trenton Shaffer
- * @author Kalle H‰m‰l‰inen (original author)
+ * @author Kalle H√§m√§l√§inen (original author)
  * 
  */
 public class Box2dLightTest implements ApplicationListener, InputProcessor {

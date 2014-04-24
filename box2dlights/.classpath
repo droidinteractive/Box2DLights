@@ -3,6 +3,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="libs/gdx.jar" sourcepath="libs/gdx-sources.jar"/>
-	<classpathentry kind="lib" path="/box2dlights-desktop/libs/gdx-backend-lwjgl.jar" sourcepath="/box2dlights-desktop/libs/gdx-backend-lwjgl-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

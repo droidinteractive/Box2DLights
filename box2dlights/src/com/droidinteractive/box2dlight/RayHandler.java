@@ -18,7 +18,7 @@ import com.badlogic.gdx.utils.Disposable;
 
 /**
  * @author Trenton Shaffer
- * @author Kalle H‰m‰l‰inen (original author)
+ * @author Kalle H√§m√§l√§inen (original author)
  * 
  */
 public class RayHandler implements Disposable {
@@ -354,9 +354,9 @@ public class RayHandler implements Disposable {
                 this.disabledLights.clear();
 
                 if (this.lightMap != null)
-                        this.lightMap.dispose();
-                if (this.lightShader != null)
-                        this.lightShader.dispose();
+                {
+                        this.lightMap.frameBuffer.dispose();
+                }                
         }
 
         public void removeAll() {
