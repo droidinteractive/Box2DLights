@@ -1,4 +1,4 @@
-package com.droidinteractive.box2dlight.test;
+package com.droidinteractive.box2dlights.test;
 
 
 import java.util.ArrayList;

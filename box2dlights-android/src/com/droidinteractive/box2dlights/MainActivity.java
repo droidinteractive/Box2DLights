@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.droidinteractive.box2dlight.test.Box2dLightAndroidTest;
+import com.droidinteractive.box2dlights.test.Box2dLightAndroidTest;
 
 public class MainActivity extends AndroidApplication {
     @Override
